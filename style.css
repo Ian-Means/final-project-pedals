@@ -37,11 +37,8 @@ body {
 header {
     grid-row: 1/2;
     grid-column: 1/4;
-
     padding: 4em 0 1em;
     text-align: center;
-
-    /* https://commons.wikimedia.org/wiki/File:Eventide_Timefactor_on_Pedal_Board,_Recording_Heartlyn_Rae,_Parametric_Studios.jpg */
     background: #E0CFB1 url(./media/pedalboard.jpg) no-repeat 50% 80%;
     background-size: cover;
 }
@@ -105,11 +102,15 @@ img {
 .info-aside {
     grid-row: 3/8;
     grid-column: 3/4;
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 .info-aside img {
     margin-bottom: 0.5em;
     max-width: 100%;
-    max-height: 400px;
+    max-height: 100%;
 }
 p {
     margin-bottom: 1em;

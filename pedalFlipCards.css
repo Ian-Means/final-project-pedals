@@ -13,7 +13,6 @@
 .cardContainer {
     grid-row: 3/8;
     grid-column: 1/4;
-
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -72,7 +71,6 @@
   .cardContainer {
     grid-row: 3/6;
     grid-column: 1/2;
-
     flex-direction: column;
     flex-wrap: nowrap;
   }
